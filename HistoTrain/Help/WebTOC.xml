@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="26107909-aa6c-4fba-b7f7-757c56f2df23" Title="HistogramGenerator Namespace" Url="html/c8ed418b-b4c4-cb5d-c47c-a1733b9f8db4.htm">
+    <HelpTOCNode Id="4f3d4828-c4e5-4b29-a06e-8abdef97025f" Title="GUI Class" Url="html/ede7200a-dc39-b467-72a6-57226d4da453.htm">
+      <HelpTOCNode Title="GUI Members" Url="html/462687e6-e505-897d-7e03-de1e69b20621.htm" />
+      <HelpTOCNode Title="GUI Constructor " Url="html/cc42a217-4c99-305a-867c-39f773c1a83b.htm" />
+      <HelpTOCNode Id="0eaceef3-0511-4568-9c35-8f9cac5c6812" Title="GUI Fields" Url="html/7f73f4d8-854d-b9b9-245b-7edde712de49.htm">
+        <HelpTOCNode Title="aboutToolStripMenuItem1 Field" Url="html/92d3b3b1-d135-d420-483d-47c48cffc571.htm" />
+        <HelpTOCNode Title="components Field" Url="html/78686ea0-1c0c-21e4-0f0c-dc94cf004871.htm" />
+        <HelpTOCNode Title="copyToolStripMenuItem1 Field" Url="html/d5bd9680-b2c9-514d-2a51-dd0083c9631d.htm" />
+        <HelpTOCNode Title="customizeToolStripMenuItem1 Field" Url="html/0a8a72d4-0a4e-8d15-f2a4-cd77252bb8bf.htm" />
+        <HelpTOCNode Title="cutToolStripMenuItem1 Field" Url="html/9609af04-e83d-acb6-25b0-e134178d067d.htm" />
+        <HelpTOCNode Title="dataTextBox Field" Url="html/edae1bf3-e358-d00a-4434-967b6b3885c6.htm" />
+        <HelpTOCNode Title="dataToTextFileToolStripMenuItem Field" Url="html/6c3030e4-15b7-4b37-9778-b422ab9aa7b9.htm" />
+        <HelpTOCNode Title="defaultHistogramButton Field" Url="html/36375e10-f1f3-01e7-20df-8f6e5be42f13.htm" />
+        <HelpTOCNode Title="editToolStripMenuItem1 Field" Url="html/d97e5c5e-b0e4-04d6-0ddf-dc806a725434.htm" />
+        <HelpTOCNode Title="exitToolStripMainMenuItem Field" Url="html/fc454d65-9a8a-381c-69cd-a5ec2eb1dbc7.htm" />
+        <HelpTOCNode Title="fileToolStripMenuItem1 Field" Url="html/551ae9fa-8f3e-9560-3e43-f44de72ec328.htm" />
+        <HelpTOCNode Title="firstTBInteraction Field" Url="html/27de25b1-51bd-9d46-16e3-8565b027fa4d.htm" />
+        <HelpTOCNode Title="helpToolStripMenuItem1 Field" Url="html/724a79c0-319f-d1da-9aad-6f0f6d17270e.htm" />
+        <HelpTOCNode Title="histogramData Field" Url="html/9322441f-571e-1203-2e85-2a20ff939691.htm" />
+        <HelpTOCNode Title="histogramImage Field" Url="html/c270ab4c-9849-943e-637d-cc9270133763.htm" />
+        <HelpTOCNode Title="histogramImageToolStripMenuItem Field" Url="html/edd14991-580e-ddde-7399-a3de2c4438ec.htm" />
+        <HelpTOCNode Title="histogramPB Field" Url="html/3604acb1-0d06-200d-858c-65e9f7294fdc.htm" />
+        <HelpTOCNode Title="invalidAlertLabel Field" Url="html/6898e2a9-00ec-cf86-c2f7-a176448348a5.htm" />
+        <HelpTOCNode Title="lowerClassLimitLabel Field" Url="html/64eeafad-2d50-950f-97fd-1b2a063832a8.htm" />
+        <HelpTOCNode Title="lowerClassTextBox Field" Url="html/4ff698e9-6aa0-1b81-91d7-982961ba3294.htm" />
+        <HelpTOCNode Title="mainMenuStrip Field" Url="html/3a9db916-0892-bccc-04e1-8aad312b0168.htm" />
+        <HelpTOCNode Title="mainPanel Field" Url="html/4bd44881-6b0b-076f-0dde-a2b0f7f47657.htm" />
+        <HelpTOCNode Title="numAlertLabel Field" Url="html/10721ce6-6c55-f72f-4bee-32bd1ea41938.htm" />
+        <HelpTOCNode Title="openTextFileDialog Field" Url="html/eb5bdcf1-a71e-9691-e4a5-7f5ccf187b90.htm" />
+        <HelpTOCNode Title="openToolStripMainMenuItem Field" Url="html/0039fba2-e7e0-ce3d-8447-dfcf2dc1b906.htm" />
+        <HelpTOCNode Title="optionsToolStripMenuItem1 Field" Url="html/831dce81-ff7e-1153-d9d5-11201cf39f3c.htm" />
+        <HelpTOCNode Title="pasteToolStripMenuItem1 Field" Url="html/dacb34ef-1fd8-57d7-83ae-3bf7a5568e43.htm" />
+        <HelpTOCNode Title="redoToolStripMenuItem1 Field" Url="html/f50a6690-883f-d9a8-2c31-52cd20afd697.htm" />
+        <HelpTOCNode Title="saveBitmapDialog Field" Url="html/71f4905c-0753-82c1-3492-b406414f6ddf.htm" />
+        <HelpTOCNode Title="saveTextFileDialog Field" Url="html/811cf102-8d08-d2bd-1227-484fed855771.htm" />
+        <HelpTOCNode Title="saveToolStripMainMenuItem Field" Url="html/e29feaeb-c74c-5428-7bd8-2ff309fea788.htm" />
+        <HelpTOCNode Title="selectAllToolStripMenuItem1 Field" Url="html/20fd192c-08b0-339b-013e-cc2a1f250814.htm" />
+        <HelpTOCNode Title="toolsToolStripMenuItem1 Field" Url="html/0b68782e-ee51-c26b-af60-98b7366f96af.htm" />
+        <HelpTOCNode Title="toolStripSeparator Field" Url="html/2c777e57-a818-1364-c733-6ea3954bf840.htm" />
+        <HelpTOCNode Title="toolStripSeparator7 Field" Url="html/9ce98a5f-d4fb-b853-69df-ea3303280d17.htm" />
+        <HelpTOCNode Title="toolStripSeparator8 Field" Url="html/0267507d-7cae-8e3d-3d2d-afe9dbcaa44a.htm" />
+        <HelpTOCNode Title="undoToolStripMenuItem1 Field" Url="html/61d02ab5-3a3d-6bb6-0309-218da7888d9a.htm" />
+        <HelpTOCNode Title="upperClassLimitLabel Field" Url="html/b5afe067-d36e-5e83-93cd-129922ab17be.htm" />
+        <HelpTOCNode Title="upperClassTextBox Field" Url="html/9dd1d87a-656b-e738-dbbf-a9270d7d4290.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5921ff44-ce5f-4416-b7ba-1b6262ea9312" Title="GUI Methods" Url="html/cb529c06-d2dc-8d8c-7f63-b6e39e8b8ace.htm">
+        <HelpTOCNode Title="aboutToolStripMenuItem1_Click Method " Url="html/1532ed8c-2a08-8ca9-c8af-7709ec63f8b6.htm" />
+        <HelpTOCNode Title="createHistogramImage Method " Url="html/ef7da4cc-8607-fd71-39bb-46b4c9e1e83a.htm" />
+        <HelpTOCNode Title="dataTextBox_Enter Method " Url="html/317bbf37-9043-f281-16fe-a6df0b628179.htm" />
+        <HelpTOCNode Title="dataTextBox_TextChanged Method " Url="html/f0010eee-96cf-1740-2bc4-8d258a510e4c.htm" />
+        <HelpTOCNode Title="dataToTextFileToolStripMenuItem_Click Method " Url="html/3047a594-e596-a9c4-e50a-5e2ddea5fe52.htm" />
+        <HelpTOCNode Title="defaultHistogramButton_Click Method " Url="html/231ffeac-eb71-9402-784d-81d9d46ec82f.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/e297ea29-68c8-857f-b19c-74a51d268171.htm" />
+        <HelpTOCNode Title="exitToolStripMainMenuItem_Click Method " Url="html/6b1c11e3-d69b-4493-d2d7-8b596e42ba7e.htm" />
+        <HelpTOCNode Title="histogramImageToolStripMenuItem_Click Method " Url="html/e075aaeb-c2e5-f876-9a7f-1907434b01cf.htm" />
+        <HelpTOCNode Title="histogramIntialization Method " Url="html/170df770-e149-ad83-c8ac-6ba97b7b6bc5.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/5247d4d7-1f12-9388-c9e7-c8ae9b313350.htm" />
+        <HelpTOCNode Title="openToolStripMainMenuItem_Click Method " Url="html/125b6683-1afe-b975-b607-1ed4bf7006c4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f99b424a-736b-4ed9-b4ba-cbcfa1805af3" Title="GUI Properties" Url="html/a1fdff13-89c3-4097-ccf6-6f585898a13f.htm">
+        <HelpTOCNode Title="HistogramData Property " Url="html/17497eb0-bf44-2d46-42d2-dc3a291be163.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b1bcb714-ee63-4ac0-8c18-a7c9af6a84eb" Title="Histogram Class" Url="html/834e6496-082f-beb4-3484-67b60251f1bc.htm">
+      <HelpTOCNode Title="Histogram Members" Url="html/10b6730c-7f54-445f-7605-49369969745e.htm" />
+      <HelpTOCNode Title="Histogram Constructor " Url="html/50d20811-cab1-d93b-04a4-b31ee53461d3.htm" />
+      <HelpTOCNode Id="b4048ddf-91bb-4ad1-8a6c-b96951b76296" Title="Histogram Fields" Url="html/09a67b3a-84a6-3c1c-2784-27db9ef88806.htm">
+        <HelpTOCNode Title="dataClassWidth Field" Url="html/44df028a-d619-913b-3dc0-187345d4d7b9.htm" />
+        <HelpTOCNode Title="dataValues Field" Url="html/3c2eb49b-9cc5-1823-60e5-7b19efa2ea49.htm" />
+        <HelpTOCNode Title="firstBarLCL Field" Url="html/e34c52a1-f13d-a632-6b0f-7d8c585ea467.htm" />
+        <HelpTOCNode Title="frequencyClassWidth Field" Url="html/904779f0-a788-87e1-d864-a96c0a576506.htm" />
+        <HelpTOCNode Title="lastBarUCL Field" Url="html/bf740aba-d4bd-6049-67c0-06aeab427cfa.htm" />
+        <HelpTOCNode Title="maxRelativeFrequency Field" Url="html/69968e8a-a40b-fe80-210b-7a22630e805c.htm" />
+        <HelpTOCNode Title="numOfBars Field" Url="html/4ea9536b-bd7c-fe6d-33d8-5b02d5a4b3d8.htm" />
+        <HelpTOCNode Title="relativeFrequenciesArray Field" Url="html/2bff7044-f889-fbfa-e25b-f802cde44d57.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="09267c73-5f41-433c-b649-0f38781f9ab4" Title="Histogram Methods" Url="html/e6cd29d8-f879-daac-7a48-6a38f0dcca27.htm">
+        <HelpTOCNode Title="defaultHistogram Method " Url="html/68c1281c-17f2-45df-45d6-d912caa49c4b.htm" />
+        <HelpTOCNode Title="frequencies Method " Url="html/184e9e1c-1a15-1efa-4f52-0e6168b16656.htm" />
+        <HelpTOCNode Title="numOfBarsInitialization Method " Url="html/cc88d628-d0cb-10b4-d2ef-95d122d9743d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="dcf8e2c9-fbeb-48cc-8151-b8c2399d763a" Title="Histogram Properties" Url="html/8bf0cf20-fcf8-cffe-7d2c-cdf01adcf15c.htm">
+        <HelpTOCNode Title="DataClassWidth Property " Url="html/c609dd05-81ae-d41b-1b06-f12eb657728c.htm" />
+        <HelpTOCNode Title="FirstBarLCL Property " Url="html/13effe2b-7e77-0056-1c6b-d9c9d4e3d13e.htm" />
+        <HelpTOCNode Title="FrequencyClassWidth Property " Url="html/3d7ce4c2-8177-56ab-b5a9-a45480dffd64.htm" />
+        <HelpTOCNode Title="LastBarUCL Property " Url="html/01d0321f-2724-4a92-09e5-a3963595c8ac.htm" />
+        <HelpTOCNode Title="MaxRelativeFrequency Property " Url="html/5276d2ca-2535-1cec-5c02-faa40da133e5.htm" />
+        <HelpTOCNode Title="NumOfBars Property " Url="html/1580a10a-4a79-6311-4860-54523d902c50.htm" />
+        <HelpTOCNode Title="RelativeFrequenciesArray Property " Url="html/b817bde6-c094-f0d2-61ad-697dbeb52801.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="41cb4e62-427e-4be3-9ddf-20ef785baef6" Title="HistogramData Class" Url="html/0d2a4544-060d-9a16-633c-1e699bdb2933.htm">
+      <HelpTOCNode Title="HistogramData Members" Url="html/5daff727-ca98-3808-657f-e1ed7d87ada1.htm" />
+      <HelpTOCNode Title="HistogramData Constructor " Url="html/f36dbb43-bb8e-cd53-0a24-f85f16222d82.htm" />
+      <HelpTOCNode Id="6c6cb2eb-dc9b-4370-b906-62cacc0e543a" Title="HistogramData Fields" Url="html/27bdbc8f-dc18-a1b8-5996-3af3e6a1347b.htm">
+        <HelpTOCNode Title="dataStringArray Field" Url="html/d5792e4a-c1b1-e503-9963-4254e73e0b87.htm" />
+        <HelpTOCNode Title="dataValues Field" Url="html/d997afd2-c6e7-0902-9a34-b3ea02fb89fd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="11519476-8d1b-4374-88f7-c17fd02163f9" Title="HistogramData Methods" Url="html/d2b2cd2b-db40-38a6-4348-14976c5524a1.htm">
+        <HelpTOCNode Title="dataValuesArray Method " Url="html/d10b0668-1915-66e8-5164-3bcb84feafe1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="29805fb7-68e2-4262-a7e6-b19c0ad8ea36" Title="HistogramData Properties" Url="html/dca1111e-711c-ca4c-d3d0-ac08122e90c5.htm">
+        <HelpTOCNode Title="DataValues Property " Url="html/5f6f4fc1-1491-daeb-16c1-2163008eef00.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

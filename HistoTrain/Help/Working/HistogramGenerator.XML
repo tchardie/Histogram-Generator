@@ -1,0 +1,301 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HistogramGenerator</name>
+    </assembly>
+    <members>
+        <member name="T:HistogramGenerator.GUI">
+            <summary>
+            The GUI class provides a fully functioning graphical interface.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.GUI.#ctor">
+            <summary>
+            GUI no-arg constructor.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.GUI.openToolStripMainMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Event for opening a text file.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HistogramGenerator.GUI.dataToTextFileToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Event for saving data to a text file.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HistogramGenerator.GUI.histogramImageToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Event for saving the histogram image to a bitmap.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HistogramGenerator.GUI.exitToolStripMainMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Event for exiting the application.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HistogramGenerator.GUI.defaultHistogramButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Event for clicking the "create default histogram" button. 
+            Calls histogramIntialization(), sending "default" as an argument.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HistogramGenerator.GUI.histogramIntialization(System.String)">
+            <summary>
+            Initializes a new histogram. 
+            Checks for valid data. 
+            Calls createHistogramImage(). 
+            </summary>
+            <param name="type"></param>
+        </member>
+        <member name="M:HistogramGenerator.GUI.createHistogramImage">
+            <summary>
+            Checks for an entry of at least ten numbers. 
+            Calls all methods in the HistogramImage class needed to build a histogram image from pixels. 
+            Displays the histogram. 
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.GUI.aboutToolStripMenuItem1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Event for the about window. 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HistogramGenerator.GUI.dataTextBox_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Event for text changes in the data textbox.
+            Checks if data exists in the textbox.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HistogramGenerator.GUI.dataTextBox_Enter(System.Object,System.EventArgs)">
+            <summary>
+            Event for the data textbox receiving focus.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:HistogramGenerator.GUI.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.GUI.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HistogramGenerator.GUI.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:HistogramGenerator.HistogramImage">
+            <summary>
+            The HistogramImage class handles only pixel related information needed to create a histogram bitmap image.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.HistogramImage.#ctor(System.Int32,System.Int32)">
+            <summary>
+            HistogramImage class constructor which accepts two integers.
+            Initializes pixel values, fonts, colors, and etc. needed to structure a histogram bitmap image.
+            </summary>
+            <param name="width"></param>
+            <param name="height"></param>
+        </member>
+        <member name="M:HistogramGenerator.HistogramImage.defaultHistogramIntialization(System.Double[])">
+            <summary>
+            Initializes pixel values for the default histogram.
+            Calls defaultHistogram() in the Histogram class.
+            </summary>
+            <param name="dataValues"></param>
+        </member>
+        <member name="M:HistogramGenerator.HistogramImage.background">
+            <summary>
+            Creates the histogram background.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.HistogramImage.backgroundBorder">
+            <summary>
+            Creates the histogram background border.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.HistogramImage.frame">
+            <summary>
+            Creates the histogram frame.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.HistogramImage.frameBorder">
+            <summary>
+            Creates the histogram frame border.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.HistogramImage.bars">
+            <summary>
+            Creates the histogram bars and bar borders.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.HistogramImage.verticalTicks">
+            <summary>
+            Creates the histogram vertical ticks.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.HistogramImage.horizontalTicks">
+            <summary>
+            Creates the histogram horizontal ticks.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.HistogramImage.verticalTickLabels">
+            <summary>
+            Creates the histogram vertical tick labels.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.HistogramImage.horizontalTickLabels">
+            <summary>
+            Creates the histogram horizontal tick labels
+            </summary>
+        </member>
+        <member name="P:HistogramGenerator.HistogramImage.HistogramBitmap">
+            <summary>
+            The HistogramBitmap property gets the histogramBitmap member. 
+            </summary>
+        </member>
+        <member name="F:HistogramGenerator.AboutBox.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.AboutBox.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.AboutBox.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:HistogramGenerator.HistogramData">
+            <summary>
+            The HistogramData class handles the data from the user.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.HistogramData.#ctor(System.String)">
+            <summary>
+            Constructor for HistogramData which accepts a string.
+            Calls dataValuesArray(), sending a string. 
+            </summary>
+            <param name="dataString"></param>
+        </member>
+        <member name="M:HistogramGenerator.HistogramData.dataValuesArray(System.String)">
+            <summary>
+            Stores a delimited string into a string array.
+            Converts the strings to double values.
+            Double values are stored in a double array. 
+            </summary>
+            <param name="dataString"></param>
+        </member>
+        <member name="P:HistogramGenerator.HistogramData.DataValues">
+            <summary>
+            The DataValues property gets the dataValues member. 
+            </summary>
+        </member>
+        <member name="T:HistogramGenerator.Histogram">
+            <summary>
+            The Histogram class provides all needed to generate a mathematical representation of a histogram.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.Histogram.#ctor(System.Double[])">
+            <summary>
+            Histogram class constructor which accepts an array of type double.
+            </summary>
+            <param name="dataValues"></param>
+        </member>
+        <member name="M:HistogramGenerator.Histogram.defaultHistogram">
+            <summary>
+            Performs calculations needed to initialize a default histogram.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.Histogram.numOfBarsInitialization">
+            <summary>
+            Sets the minimum and maximum values for the number of bars.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.Histogram.frequencies">
+            <summary>
+            Calculates the relative and max frequencies.
+            </summary>
+        </member>
+        <member name="P:HistogramGenerator.Histogram.NumOfBars">
+            <summary>
+            The NumOfBars property gets the numOfBars member. 
+            </summary>
+        </member>
+        <member name="P:HistogramGenerator.Histogram.FirstBarLCL">
+            <summary>
+            The FirstBarLCL property gets the firstBarLCL member. 
+            </summary>
+        </member>
+        <member name="P:HistogramGenerator.Histogram.LastBarUCL">
+            <summary>
+            The LastBarUCL property gets the lastBarUCL member. 
+            </summary>
+        </member>
+        <member name="P:HistogramGenerator.Histogram.DataClassWidth">
+            <summary>
+            The DataClassWidth property gets the dataClassWidth member. 
+            </summary>
+        </member>
+        <member name="P:HistogramGenerator.Histogram.FrequencyClassWidth">
+            <summary>
+            The FrequencyClassWidth property gets the frequencyClassWidth member. 
+            </summary>
+        </member>
+        <member name="P:HistogramGenerator.Histogram.RelativeFrequenciesArray">
+            <summary>
+            The RelativeFrequenciesArray property gets the numOfBars member relativeFrequenciesArray. 
+            </summary>
+        </member>
+        <member name="P:HistogramGenerator.Histogram.MaxRelativeFrequency">
+            <summary>
+            The MaxRelativeFrequency property gets the maxRelativeFrequency member. 
+            </summary>
+        </member>
+        <member name="T:HistogramGenerator.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:HistogramGenerator.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:HistogramGenerator.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="M:HistogramGenerator.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+    </members>
+</doc>

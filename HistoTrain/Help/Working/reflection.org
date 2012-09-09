@@ -1,0 +1,2054 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="HistogramGenerator">
+      <assemblydata version="1.0.0.0" culture="" key="" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyConfigurationAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value />
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>HistogramGenerator</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value />
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>HistogramGenerator</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Copyright © Microsoft 2011</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTrademarkAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value />
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>5bed0a85-5ec2-4c64-ada9-1edd3243250c</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>1.0.0.0</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:HistogramGenerator">
+      <apidata name="HistogramGenerator" group="namespace" />
+      <elements>
+        <element api="T:HistogramGenerator.GUI" />
+        <element api="T:HistogramGenerator.HistogramData" />
+        <element api="T:HistogramGenerator.Histogram" />
+      </elements>
+    </api>
+    <api id="M:HistogramGenerator.AboutBox.#ctor">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.AboutBox" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.AboutBox.components">
+      <apidata name="components" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.ComponentModel.IContainer" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.AboutBox" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.AboutBox.Dispose(System.Boolean)">
+      <apidata name="Dispose" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Forms.Form.Dispose(System.Boolean)">
+          <type api="T:System.Windows.Forms.Form" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="disposing">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.AboutBox" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.AboutBox.InitializeComponent">
+      <apidata name="InitializeComponent" group="member" subgroup="method" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.AboutBox" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.AboutBox.labelCompanyName">
+      <apidata name="labelCompanyName" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Label" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.AboutBox" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.AboutBox.labelCopyright">
+      <apidata name="labelCopyright" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Label" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.AboutBox" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.AboutBox.labelProductName">
+      <apidata name="labelProductName" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Label" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.AboutBox" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.AboutBox.labelVersion">
+      <apidata name="labelVersion" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Label" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.AboutBox" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.AboutBox.okButton">
+      <apidata name="okButton" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Button" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.AboutBox" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.AboutBox.pictureBox1">
+      <apidata name="pictureBox1" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.PictureBox" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.AboutBox" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.AboutBox.tableLayoutPanel">
+      <apidata name="tableLayoutPanel" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.TableLayoutPanel" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.AboutBox" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.AboutBox.textBoxDescription">
+      <apidata name="textBoxDescription" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.TextBox" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.AboutBox" ref="true" />
+      </containers>
+    </api>
+    <api id="T:HistogramGenerator.GUI">
+      <apidata name="GUI" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" layout="auto" format="ansi" />
+      <family>
+        <ancestors>
+          <type api="T:System.Windows.Forms.Form" ref="true" />
+          <type api="T:System.Windows.Forms.ContainerControl" ref="true" />
+          <type api="T:System.Windows.Forms.ScrollableControl" ref="true" />
+          <type api="T:System.Windows.Forms.Control" ref="true" />
+          <type api="T:System.ComponentModel.Component" ref="true" />
+          <type api="T:System.MarshalByRefObject" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="F:HistogramGenerator.GUI.histogramImage" />
+        <element api="F:HistogramGenerator.GUI.histogramData" />
+        <element api="F:HistogramGenerator.GUI.firstTBInteraction" />
+        <element api="F:HistogramGenerator.GUI.components" />
+        <element api="F:HistogramGenerator.GUI.mainMenuStrip" />
+        <element api="F:HistogramGenerator.GUI.fileToolStripMenuItem1" />
+        <element api="F:HistogramGenerator.GUI.openToolStripMainMenuItem" />
+        <element api="F:HistogramGenerator.GUI.toolStripSeparator" />
+        <element api="F:HistogramGenerator.GUI.saveToolStripMainMenuItem" />
+        <element api="F:HistogramGenerator.GUI.exitToolStripMainMenuItem" />
+        <element api="F:HistogramGenerator.GUI.editToolStripMenuItem1" />
+        <element api="F:HistogramGenerator.GUI.undoToolStripMenuItem1" />
+        <element api="F:HistogramGenerator.GUI.redoToolStripMenuItem1" />
+        <element api="F:HistogramGenerator.GUI.toolStripSeparator7" />
+        <element api="F:HistogramGenerator.GUI.cutToolStripMenuItem1" />
+        <element api="F:HistogramGenerator.GUI.copyToolStripMenuItem1" />
+        <element api="F:HistogramGenerator.GUI.pasteToolStripMenuItem1" />
+        <element api="F:HistogramGenerator.GUI.toolStripSeparator8" />
+        <element api="F:HistogramGenerator.GUI.selectAllToolStripMenuItem1" />
+        <element api="F:HistogramGenerator.GUI.toolsToolStripMenuItem1" />
+        <element api="F:HistogramGenerator.GUI.customizeToolStripMenuItem1" />
+        <element api="F:HistogramGenerator.GUI.optionsToolStripMenuItem1" />
+        <element api="F:HistogramGenerator.GUI.helpToolStripMenuItem1" />
+        <element api="F:HistogramGenerator.GUI.aboutToolStripMenuItem1" />
+        <element api="F:HistogramGenerator.GUI.mainPanel" />
+        <element api="F:HistogramGenerator.GUI.defaultHistogramButton" />
+        <element api="F:HistogramGenerator.GUI.dataToTextFileToolStripMenuItem" />
+        <element api="F:HistogramGenerator.GUI.histogramImageToolStripMenuItem" />
+        <element api="F:HistogramGenerator.GUI.dataTextBox" />
+        <element api="F:HistogramGenerator.GUI.histogramPB" />
+        <element api="F:HistogramGenerator.GUI.openTextFileDialog" />
+        <element api="F:HistogramGenerator.GUI.saveTextFileDialog" />
+        <element api="F:HistogramGenerator.GUI.upperClassLimitLabel" />
+        <element api="F:HistogramGenerator.GUI.lowerClassLimitLabel" />
+        <element api="F:HistogramGenerator.GUI.lowerClassTextBox" />
+        <element api="F:HistogramGenerator.GUI.upperClassTextBox" />
+        <element api="F:HistogramGenerator.GUI.numAlertLabel" />
+        <element api="F:HistogramGenerator.GUI.invalidAlertLabel" />
+        <element api="F:HistogramGenerator.GUI.saveBitmapDialog" />
+        <element api="M:HistogramGenerator.GUI.#ctor" />
+        <element api="M:HistogramGenerator.GUI.openToolStripMainMenuItem_Click(System.Object,System.EventArgs)" />
+        <element api="M:HistogramGenerator.GUI.dataToTextFileToolStripMenuItem_Click(System.Object,System.EventArgs)" />
+        <element api="M:HistogramGenerator.GUI.histogramImageToolStripMenuItem_Click(System.Object,System.EventArgs)" />
+        <element api="M:HistogramGenerator.GUI.exitToolStripMainMenuItem_Click(System.Object,System.EventArgs)" />
+        <element api="M:HistogramGenerator.GUI.defaultHistogramButton_Click(System.Object,System.EventArgs)" />
+        <element api="M:HistogramGenerator.GUI.histogramIntialization(System.String)" />
+        <element api="M:HistogramGenerator.GUI.createHistogramImage" />
+        <element api="M:HistogramGenerator.GUI.aboutToolStripMenuItem1_Click(System.Object,System.EventArgs)" />
+        <element api="M:HistogramGenerator.GUI.dataTextBox_TextChanged(System.Object,System.EventArgs)" />
+        <element api="M:HistogramGenerator.GUI.dataTextBox_Enter(System.Object,System.EventArgs)" />
+        <element api="M:HistogramGenerator.GUI.Dispose(System.Boolean)" />
+        <element api="M:HistogramGenerator.GUI.InitializeComponent" />
+        <element api="P:HistogramGenerator.GUI.HistogramData" />
+      </elements>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.GUI.#ctor">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.aboutToolStripMenuItem1">
+      <apidata name="aboutToolStripMenuItem1" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripMenuItem" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.GUI.aboutToolStripMenuItem1_Click(System.Object,System.EventArgs)">
+      <apidata name="aboutToolStripMenuItem1_Click" group="member" subgroup="method" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="sender">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="e">
+          <type api="T:System.EventArgs" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.components">
+      <apidata name="components" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.ComponentModel.IContainer" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.copyToolStripMenuItem1">
+      <apidata name="copyToolStripMenuItem1" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripMenuItem" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.GUI.createHistogramImage">
+      <apidata name="createHistogramImage" group="member" subgroup="method" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.customizeToolStripMenuItem1">
+      <apidata name="customizeToolStripMenuItem1" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripMenuItem" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.cutToolStripMenuItem1">
+      <apidata name="cutToolStripMenuItem1" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripMenuItem" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.dataTextBox">
+      <apidata name="dataTextBox" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.TextBox" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.GUI.dataTextBox_Enter(System.Object,System.EventArgs)">
+      <apidata name="dataTextBox_Enter" group="member" subgroup="method" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="sender">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="e">
+          <type api="T:System.EventArgs" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.GUI.dataTextBox_TextChanged(System.Object,System.EventArgs)">
+      <apidata name="dataTextBox_TextChanged" group="member" subgroup="method" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="sender">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="e">
+          <type api="T:System.EventArgs" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.dataToTextFileToolStripMenuItem">
+      <apidata name="dataToTextFileToolStripMenuItem" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripMenuItem" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.GUI.dataToTextFileToolStripMenuItem_Click(System.Object,System.EventArgs)">
+      <apidata name="dataToTextFileToolStripMenuItem_Click" group="member" subgroup="method" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="sender">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="e">
+          <type api="T:System.EventArgs" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.defaultHistogramButton">
+      <apidata name="defaultHistogramButton" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Button" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.GUI.defaultHistogramButton_Click(System.Object,System.EventArgs)">
+      <apidata name="defaultHistogramButton_Click" group="member" subgroup="method" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="sender">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="e">
+          <type api="T:System.EventArgs" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.GUI.Dispose(System.Boolean)">
+      <apidata name="Dispose" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Forms.Form.Dispose(System.Boolean)">
+          <type api="T:System.Windows.Forms.Form" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="disposing">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.editToolStripMenuItem1">
+      <apidata name="editToolStripMenuItem1" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripMenuItem" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.exitToolStripMainMenuItem">
+      <apidata name="exitToolStripMainMenuItem" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripMenuItem" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.GUI.exitToolStripMainMenuItem_Click(System.Object,System.EventArgs)">
+      <apidata name="exitToolStripMainMenuItem_Click" group="member" subgroup="method" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="sender">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="e">
+          <type api="T:System.EventArgs" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.fileToolStripMenuItem1">
+      <apidata name="fileToolStripMenuItem1" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripMenuItem" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.firstTBInteraction">
+      <apidata name="firstTBInteraction" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.helpToolStripMenuItem1">
+      <apidata name="helpToolStripMenuItem1" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripMenuItem" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.histogramData">
+      <apidata name="histogramData" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:HistogramGenerator.HistogramData" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="P:HistogramGenerator.GUI.HistogramData">
+      <apidata name="HistogramData" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_HistogramData" />
+      <setter name="set_HistogramData" />
+      <returns>
+        <type api="T:HistogramGenerator.HistogramData" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.histogramImage">
+      <apidata name="histogramImage" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.histogramImageToolStripMenuItem">
+      <apidata name="histogramImageToolStripMenuItem" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripMenuItem" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.GUI.histogramImageToolStripMenuItem_Click(System.Object,System.EventArgs)">
+      <apidata name="histogramImageToolStripMenuItem_Click" group="member" subgroup="method" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="sender">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="e">
+          <type api="T:System.EventArgs" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.GUI.histogramIntialization(System.String)">
+      <apidata name="histogramIntialization" group="member" subgroup="method" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="type">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.histogramPB">
+      <apidata name="histogramPB" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.PictureBox" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.GUI.InitializeComponent">
+      <apidata name="InitializeComponent" group="member" subgroup="method" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.invalidAlertLabel">
+      <apidata name="invalidAlertLabel" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Label" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.lowerClassLimitLabel">
+      <apidata name="lowerClassLimitLabel" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Label" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.lowerClassTextBox">
+      <apidata name="lowerClassTextBox" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.TextBox" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.mainMenuStrip">
+      <apidata name="mainMenuStrip" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.MenuStrip" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.mainPanel">
+      <apidata name="mainPanel" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Panel" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.numAlertLabel">
+      <apidata name="numAlertLabel" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Label" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.openTextFileDialog">
+      <apidata name="openTextFileDialog" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.OpenFileDialog" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.openToolStripMainMenuItem">
+      <apidata name="openToolStripMainMenuItem" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripMenuItem" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.GUI.openToolStripMainMenuItem_Click(System.Object,System.EventArgs)">
+      <apidata name="openToolStripMainMenuItem_Click" group="member" subgroup="method" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="sender">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="e">
+          <type api="T:System.EventArgs" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.optionsToolStripMenuItem1">
+      <apidata name="optionsToolStripMenuItem1" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripMenuItem" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.pasteToolStripMenuItem1">
+      <apidata name="pasteToolStripMenuItem1" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripMenuItem" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.redoToolStripMenuItem1">
+      <apidata name="redoToolStripMenuItem1" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripMenuItem" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.saveBitmapDialog">
+      <apidata name="saveBitmapDialog" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.SaveFileDialog" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.saveTextFileDialog">
+      <apidata name="saveTextFileDialog" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.SaveFileDialog" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.saveToolStripMainMenuItem">
+      <apidata name="saveToolStripMainMenuItem" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripMenuItem" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.selectAllToolStripMenuItem1">
+      <apidata name="selectAllToolStripMenuItem1" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripMenuItem" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.toolsToolStripMenuItem1">
+      <apidata name="toolsToolStripMenuItem1" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripMenuItem" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.toolStripSeparator">
+      <apidata name="toolStripSeparator" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripSeparator" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.toolStripSeparator7">
+      <apidata name="toolStripSeparator7" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripSeparator" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.toolStripSeparator8">
+      <apidata name="toolStripSeparator8" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripSeparator" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.undoToolStripMenuItem1">
+      <apidata name="undoToolStripMenuItem1" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.ToolStripMenuItem" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.upperClassLimitLabel">
+      <apidata name="upperClassLimitLabel" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Label" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.GUI.upperClassTextBox">
+      <apidata name="upperClassTextBox" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.TextBox" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.GUI" ref="true" />
+      </containers>
+    </api>
+    <api id="T:HistogramGenerator.Histogram">
+      <apidata name="Histogram" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" layout="auto" format="ansi" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="F:HistogramGenerator.Histogram.dataValues" />
+        <element api="F:HistogramGenerator.Histogram.numOfBars" />
+        <element api="F:HistogramGenerator.Histogram.firstBarLCL" />
+        <element api="F:HistogramGenerator.Histogram.lastBarUCL" />
+        <element api="F:HistogramGenerator.Histogram.dataClassWidth" />
+        <element api="F:HistogramGenerator.Histogram.frequencyClassWidth" />
+        <element api="F:HistogramGenerator.Histogram.relativeFrequenciesArray" />
+        <element api="F:HistogramGenerator.Histogram.maxRelativeFrequency" />
+        <element api="M:HistogramGenerator.Histogram.#ctor(System.Double[])" />
+        <element api="M:HistogramGenerator.Histogram.defaultHistogram" />
+        <element api="M:HistogramGenerator.Histogram.numOfBarsInitialization" />
+        <element api="M:HistogramGenerator.Histogram.frequencies" />
+        <element api="P:HistogramGenerator.Histogram.NumOfBars" />
+        <element api="P:HistogramGenerator.Histogram.FirstBarLCL" />
+        <element api="P:HistogramGenerator.Histogram.LastBarUCL" />
+        <element api="P:HistogramGenerator.Histogram.DataClassWidth" />
+        <element api="P:HistogramGenerator.Histogram.FrequencyClassWidth" />
+        <element api="P:HistogramGenerator.Histogram.RelativeFrequenciesArray" />
+        <element api="P:HistogramGenerator.Histogram.MaxRelativeFrequency" />
+      </elements>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.Histogram.#ctor(System.Double[])">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="dataValues">
+          <arrayOf rank="1">
+            <type api="T:System.Double" ref="false" />
+          </arrayOf>
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.Histogram.dataClassWidth">
+      <apidata name="dataClassWidth" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="P:HistogramGenerator.Histogram.DataClassWidth">
+      <apidata name="DataClassWidth" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_DataClassWidth" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.Histogram.dataValues">
+      <apidata name="dataValues" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Double" ref="false" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.Histogram.defaultHistogram">
+      <apidata name="defaultHistogram" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.Histogram.firstBarLCL">
+      <apidata name="firstBarLCL" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="P:HistogramGenerator.Histogram.FirstBarLCL">
+      <apidata name="FirstBarLCL" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_FirstBarLCL" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.Histogram.frequencies">
+      <apidata name="frequencies" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.Histogram.frequencyClassWidth">
+      <apidata name="frequencyClassWidth" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="P:HistogramGenerator.Histogram.FrequencyClassWidth">
+      <apidata name="FrequencyClassWidth" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_FrequencyClassWidth" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.Histogram.lastBarUCL">
+      <apidata name="lastBarUCL" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="P:HistogramGenerator.Histogram.LastBarUCL">
+      <apidata name="LastBarUCL" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_LastBarUCL" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.Histogram.maxRelativeFrequency">
+      <apidata name="maxRelativeFrequency" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="P:HistogramGenerator.Histogram.MaxRelativeFrequency">
+      <apidata name="MaxRelativeFrequency" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_MaxRelativeFrequency" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.Histogram.numOfBars">
+      <apidata name="numOfBars" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="P:HistogramGenerator.Histogram.NumOfBars">
+      <apidata name="NumOfBars" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_NumOfBars" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.Histogram.numOfBarsInitialization">
+      <apidata name="numOfBarsInitialization" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.Histogram.relativeFrequenciesArray">
+      <apidata name="relativeFrequenciesArray" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Double" ref="false" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="P:HistogramGenerator.Histogram.RelativeFrequenciesArray">
+      <apidata name="RelativeFrequenciesArray" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_RelativeFrequenciesArray" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Double" ref="false" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </containers>
+    </api>
+    <api id="T:HistogramGenerator.HistogramData">
+      <apidata name="HistogramData" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" layout="auto" format="ansi" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="F:HistogramGenerator.HistogramData.dataStringArray" />
+        <element api="F:HistogramGenerator.HistogramData.dataValues" />
+        <element api="M:HistogramGenerator.HistogramData.#ctor(System.String)" />
+        <element api="M:HistogramGenerator.HistogramData.dataValuesArray(System.String)" />
+        <element api="P:HistogramGenerator.HistogramData.DataValues" />
+      </elements>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.HistogramData.#ctor(System.String)">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="dataString">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramData" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramData.dataStringArray">
+      <apidata name="dataStringArray" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramData" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramData.dataValues">
+      <apidata name="dataValues" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Double" ref="false" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramData" ref="true" />
+      </containers>
+    </api>
+    <api id="P:HistogramGenerator.HistogramData.DataValues">
+      <apidata name="DataValues" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_DataValues" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Double" ref="false" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramData" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.HistogramData.dataValuesArray(System.String)">
+      <apidata name="dataValuesArray" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="dataString">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramData" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.HistogramImage.#ctor(System.Int32,System.Int32)">
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="width">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="height">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.HistogramImage.background">
+      <apidata name="background" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.HistogramImage.backgroundBorder">
+      <apidata name="backgroundBorder" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.barPixWidth">
+      <apidata name="barPixWidth" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.HistogramImage.bars">
+      <apidata name="bars" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.barsMaxHeightYAxis">
+      <apidata name="barsMaxHeightYAxis" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.barsMaxPixHeight">
+      <apidata name="barsMaxPixHeight" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.barsMaxPixWidth">
+      <apidata name="barsMaxPixWidth" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.bgBorderPixWidth">
+      <apidata name="bgBorderPixWidth" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.bgPixBM">
+      <apidata name="bgPixBM" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.bgPixLM">
+      <apidata name="bgPixLM" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.bgPixRM">
+      <apidata name="bgPixRM" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.bgPixTM">
+      <apidata name="bgPixTM" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.blackBrush">
+      <apidata name="blackBrush" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Drawing.Brush" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.classPixHeight">
+      <apidata name="classPixHeight" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Single" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.classPixWidth">
+      <apidata name="classPixWidth" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Single" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.HistogramImage.defaultHistogramIntialization(System.Double[])">
+      <apidata name="defaultHistogramIntialization" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="dataValues">
+          <arrayOf rank="1">
+            <type api="T:System.Double" ref="false" />
+          </arrayOf>
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.firstBarXAxis">
+      <apidata name="firstBarXAxis" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.fontRegular">
+      <apidata name="fontRegular" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Drawing.Font" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.HistogramImage.frame">
+      <apidata name="frame" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.HistogramImage.frameBorder">
+      <apidata name="frameBorder" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.frameBorderPixWidth">
+      <apidata name="frameBorderPixWidth" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.framePixHeight">
+      <apidata name="framePixHeight" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.framePixLM">
+      <apidata name="framePixLM" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.framePixRM">
+      <apidata name="framePixRM" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.framePixTM">
+      <apidata name="framePixTM" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.framePixWidth">
+      <apidata name="framePixWidth" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.fullBGPixBM">
+      <apidata name="fullBGPixBM" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.fullBGPixLM">
+      <apidata name="fullBGPixLM" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.histogram">
+      <apidata name="histogram" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:HistogramGenerator.HistogramImage.Histogram">
+      <apidata name="Histogram" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Histogram" />
+      <setter name="set_Histogram" />
+      <returns>
+        <type api="T:HistogramGenerator.Histogram" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.histogramBitmap">
+      <apidata name="histogramBitmap" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Drawing.Bitmap" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:HistogramGenerator.HistogramImage.HistogramBitmap">
+      <apidata name="HistogramBitmap" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_HistogramBitmap" />
+      <returns>
+        <type api="T:System.Drawing.Bitmap" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.histogramGraphic">
+      <apidata name="histogramGraphic" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Drawing.Graphics" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.HistogramImage.horizontalTickLabels">
+      <apidata name="horizontalTickLabels" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.HistogramImage.horizontalTicks">
+      <apidata name="horizontalTicks" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.horizTickPixHeight">
+      <apidata name="horizTickPixHeight" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.horizTickPixWidth">
+      <apidata name="horizTickPixWidth" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.maxLabelPixSize">
+      <apidata name="maxLabelPixSize" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Drawing.SizeF" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.numOfHorizTicks">
+      <apidata name="numOfHorizTicks" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.numOfVertTicks">
+      <apidata name="numOfVertTicks" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.pixHeight">
+      <apidata name="pixHeight" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.pixWidth">
+      <apidata name="pixWidth" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.HistogramImage.verticalTickLabels">
+      <apidata name="verticalTickLabels" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.HistogramImage.verticalTicks">
+      <apidata name="verticalTicks" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.vertTickPixHeight">
+      <apidata name="vertTickPixHeight" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="F:HistogramGenerator.HistogramImage.vertTickPixWidth">
+      <apidata name="vertTickPixWidth" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.HistogramImage" ref="true" />
+      </containers>
+    </api>
+    <api id="M:HistogramGenerator.Program.Main">
+      <apidata name="Main" group="member" subgroup="method" />
+      <memberdata visibility="private" static="true" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="HistogramGenerator" module="HistogramGenerator" kind="WindowsApplication" />
+        <namespace api="N:HistogramGenerator" />
+        <type api="T:HistogramGenerator.Program" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.STAThreadAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+  </apis>
+</reflection>

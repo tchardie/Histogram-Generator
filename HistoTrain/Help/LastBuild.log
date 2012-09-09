@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.3.0" projectFile="\\valdosta.edu\public\mydocs\jagarcia\My Documents\Homework\Software Engineering\HistogramGeneratorPhase1Complete\HistogramGeneratorPhase1Complete\HistoTrain\HistoTrain.shfbproj" started="10/5/2011 1:03:38 PM">
+<buildStep step="Initializing">
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
+</buildStep>
+<buildStep step="FindingTools">
+Finding tools...
+Found Sandcastle tools in &#39;C:\Program Files\Sandcastle\&#39;
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: \\valdosta.edu\public\mydocs\jagarcia\My Documents\Homework\Software Engineering\HistogramGeneratorPhase1Complete\HistogramGeneratorPhase1Complete\HistogramGenerator\bin\Release\HistogramGenerator.XML
+Source: \\valdosta.edu\public\mydocs\jagarcia\My Documents\Homework\Software Engineering\HistogramGeneratorPhase1Complete\HistogramGeneratorPhase1Complete\HistogramGenerator\bin\Release\HistogramGenerator.exe
+    Found assembly &#39;\\valdosta.edu\public\mydocs\jagarcia\My Documents\Homework\Software Engineering\HistogramGeneratorPhase1Complete\HistogramGeneratorPhase1Complete\HistogramGenerator\bin\Release\HistogramGenerator.exe&#39;
+
+Copying XML comments files
+    \\valdosta.edu\public\mydocs\jagarcia\My Documents\Homework\Software Engineering\HistogramGeneratorPhase1Complete\HistogramGeneratorPhase1Complete\HistogramGenerator\bin\Release\HistogramGenerator.XML -&gt; \\valdosta.edu\public\mydocs\jagarcia\My Documents\Homework\Software Engineering\HistogramGeneratorPhase1Complete\HistogramGeneratorPhase1Complete\HistoTrain\Help\Working\HistogramGenerator.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.1940
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0470
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  MrefBuilder (v2.6.10621.1)
+  Copyright c Microsoft 2006
+  Info: Loaded 1 assemblies for reflection and 0 dependency assemblies.
+  Info: Wrote information on 1 namespaces, 6 types, and 139 members
+  XslTransform (v2.6.10621.1)
+  Copyright c Microsoft 2005-2006
+  Info: Applying XSL transformation &#39;C:\Program Files\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
+  reflection.all -&gt; reflection.org
+    Last step completed in 00:00:19.0109
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="ApplyVisibilityProperties">
+Applying visibility properties to reflection information file
+    2133 inherited member elements removed
+    0 event backer fields noted for removal
+    2 internal members noted for removal
+    3 internal types noted for removal
+    Removing previously noted unwanted APIs and elements
+    Last step completed in 00:00:02.3072
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.6.10621.1)
+  Copyright c Microsoft 2005-2006
+  Info: Applying XSL transformation &#39;C:\Program Files\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  reflection.org -&gt; C:\Users\jagarcia\AppData\Local\Temp\tmp9025.tmp
+  Info: Applying XSL transformation &#39;C:\Program Files\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
+    Last step completed in 00:00:03.6914
+</buildStep>
+<buildStep step="ModifyHelpTopicFilenames">
+Modifying help topic filenames in reflection information file
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="Failed">
+
+SHFB: Error : BUILD CANCELLED
+
+</buildStep>
+</shfbBuild>
